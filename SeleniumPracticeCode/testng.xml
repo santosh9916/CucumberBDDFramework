@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RetryFailedSuiteSuite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="SeleniumCode.DropdownWithoutSelectClass"/>
+      <class name="retryLogic.FailedTestcaseExecution"/>
+      <class name="com.selenium.AppTest"/>
+      <class name="SeleniumCode.Dynamic_WebTable"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
