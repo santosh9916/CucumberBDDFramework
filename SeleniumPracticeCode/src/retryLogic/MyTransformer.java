@@ -10,7 +10,7 @@ public class MyTransformer implements IAnnotationTransformer {
 
 	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod)
 	{
-annotation.setRetryAnalyzer(RetryAnalyzer.class);
+annotation.setRetryAnalyzer(RetryAnalyzer.class);;
 	}
 
 }
