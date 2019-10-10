@@ -16,7 +16,7 @@ public class FindBrokenLinks extends ReusableCode{
 	public void init() {
 		System.setProperty("webdriver.chrome.driver", "/data/chromedriver");
 		driver= new ChromeDriver();
-		driver.manage().deleteAllCookies();
+		driver.manage().deleteAllCookies();;
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.flipkart.com");
 	}

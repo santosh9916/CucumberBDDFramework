@@ -23,7 +23,7 @@ public class OccuranceofWebLinks {
 			driver.get("https://www.flipkart.com");
 			List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 			
-			Map<String, Integer> map = new HashMap<String, Integer>();
+			Map<String, Integer> map = new HashMap<String, Integer>();;
 			
 			for(WebElement link : allLinks)
 				
