@@ -8,6 +8,6 @@ import org.testng.annotations.Test;
 public class FailedTestcaseExecution {
 	@Test(retryAnalyzer = RetryAnalyzer.class)
 	public void test01() {
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(false, true);;
 	}
 }
